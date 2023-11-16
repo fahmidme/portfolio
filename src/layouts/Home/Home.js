@@ -12,7 +12,12 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Blockchain', 'AI', 'Full Stack', 'Leader', 'Innovator'];
+const disciplines = [
+  'Blockchain Engineer',
+  'AI Product Creator',
+  'Full Stack Developer',
+  'Project Manager',
+];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -22,10 +27,19 @@ export const Home = () => {
   const projectTwo = useRef();
   const projectThree = useRef();
   const projectFour = useRef();
+  const projectFive = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, details];
+    const sections = [
+      intro,
+      projectOne,
+      projectTwo,
+      projectThree,
+      projectFour,
+      projectFive,
+      details,
+    ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -77,10 +91,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="AIORBIT NFT Collection"
+        title="AIORBIT NFTs"
         description="Development of dynamic AI-enhanced NFTs in Solidity, blending blockchain and AI technologies."
-        buttonText="View project"
-        buttonLink="/projects/aiorbit"
+        buttonText="View website"
+        buttonLink="https://aiorbit.io/"
         model={{
           type: 'svg',
           alt: 'AIORBIT #7',
@@ -89,10 +103,25 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-2"
-        alternate
         sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
+        visible={visibleSections.includes(projectOne.current)}
         index={2}
+        title="AIBOLT Discord Bot"
+        description="Development of dynamic AI-enhanced NFTs in Solidity, blending blockchain and AI technologies."
+        buttonText="View project"
+        buttonLink="/projects/project"
+        model={{
+          type: 'svg',
+          alt: 'AIORBIT #7',
+          SvgComponent: aiorbitSvg, // Pass the SVG component
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        alternate
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={3}
         title="XXCORP INC Innovations"
         description="Founding and steering a tech company specializing in web and mobile solutions, and its successful integration into GPT Protocol."
         buttonText="View project"
@@ -104,10 +133,10 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
+        id="project-4"
+        sectionRef={projectFour}
         visible={visibleSections.includes(projectThree.current)}
-        index={3}
+        index={4}
         title="GPT Protocol Development"
         description="Leading the development of decentralized AI blockchain technologies at GPT Protocol."
         buttonText="View project"
@@ -121,10 +150,10 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-4"
-        sectionRef={projectFour}
+        id="project-5"
+        sectionRef={projectFive}
         visible={visibleSections.includes(projectFour.current)}
-        index={4}
+        index={5}
         title="Metagood & OnChainMonkey"
         description="Pioneering the fully on-chain NFT system for OnChainMonkey, enhancing the blockchain ecosystem."
         buttonText="View project"
