@@ -142,6 +142,18 @@ export const ProjectSummary = ({
           </div>
         </>
       )}
+      {model.type === 'svg' && model.SvgComponent && (
+        <>
+          {renderKatakana('svg', visible)}
+          <div className={styles.model} data-device="svg">
+            <model.SvgComponent // Render the SVG component
+              className={styles.svgModel} // Add appropriate styling
+              aria-hidden={!visible} // Accessibility
+              style={{ opacity: svgOpacity }} // Adjust the style as needed
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 

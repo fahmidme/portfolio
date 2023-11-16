@@ -3,6 +3,7 @@ import xxcorpTexture from 'assets/xxcorp-project.png';
 import gptProtocolTexture from 'assets/gpt-protocol.png';
 import onChainMonkeyTexture from 'assets/onchain-monkey.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
+import aiorbitSvg from 'assets/aiorbit-svg.svg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -81,9 +82,9 @@ export const Home = () => {
         buttonText="View project"
         buttonLink="/projects/aiorbit"
         model={{
-          type: 'laptop',
-          alt: 'AIORBIT NFT project',
-          textures: [{ srcSet: [aiorbitTexture], placeholder: sprTexturePlaceholder }],
+          type: 'svg',
+          alt: 'AIORBIT #7',
+          SvgComponent: aiorbitSvg, // Pass the SVG component
         }}
       />
       <ProjectSummary

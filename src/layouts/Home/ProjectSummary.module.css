@@ -266,3 +266,11 @@
     opacity: 1;
   }
 }
+
+.svgModel {
+  max-width: 100%; /* or any specific size you prefer */
+  max-height: 100%; /* or any specific size you prefer */
+  height: auto; /* maintain aspect ratio */
+  width: auto; /* maintain aspect ratio */
+  /* add other properties as needed to center or position the SVG */
+}
