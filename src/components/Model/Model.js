@@ -388,6 +388,8 @@ const Device = ({
       let loadFullResTexture;
       let playAnimation;
 
+      console.log(model);
+
       const [placeholder, gltf] = await Promise.all([
         await textureLoader.loadAsync(texture.placeholder.src),
         await modelLoader.loadAsync(url),

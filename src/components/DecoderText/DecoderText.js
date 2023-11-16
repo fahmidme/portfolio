@@ -5,24 +5,11 @@ import { delay } from 'utils/delay';
 import { classes } from 'utils/style';
 import styles from './DecoderText.module.css';
 
-// prettier-ignore
-const glyphs = [
-  'ア', 'イ', 'ウ', 'エ', 'オ',
-  'カ', 'キ', 'ク', 'ケ', 'コ',
-  'サ', 'シ', 'ス', 'セ', 'ソ',
-  'タ', 'チ', 'ツ', 'テ', 'ト',
-  'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',
-  'ハ', 'ヒ', 'フ', 'ヘ', 'ホ',
-  'マ', 'ミ', 'ム', 'メ', 'モ',
-  'ヤ', 'ユ', 'ヨ', 'ー',
-  'ラ', 'リ', 'ル', 'レ', 'ロ',
-  'ワ', 'ヰ', 'ヱ', 'ヲ', 'ン',
-  'ガ', 'ギ', 'グ', 'ゲ', 'ゴ',
-  'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ',
-  'ダ', 'ヂ', 'ヅ', 'デ', 'ド',
-  'バ', 'ビ', 'ブ', 'ベ', 'ボ',
-  'パ', 'ピ', 'プ', 'ペ', 'ポ',
-];
+// Emojis and symbols for the decoder
+const emojis = ['🚀', '💻', '🔒', '🌐', '🤖', '🔧', '💡', '📈', '🧠', '🎨', '🔥'];
+
+// Combined characters
+const characters = [...emojis];
 
 const CharType = {
   Glyph: 'glyph',
@@ -35,12 +22,8 @@ function shuffle(content, output, position) {
       return { type: CharType.Value, value };
     }
 
-    if (position % 1 < 0.5) {
-      const rand = Math.floor(Math.random() * glyphs.length);
-      return { type: CharType.Glyph, value: glyphs[rand] };
-    }
-
-    return { type: CharType.Glyph, value: output[index].value };
+    const rand = Math.floor(Math.random() * characters.length);
+    return { type: CharType.Glyph, value: characters[rand] };
   });
 }
 
@@ -49,7 +32,7 @@ export const DecoderText = memo(
     const output = useRef([{ type: CharType.Glyph, value: '' }]);
     const container = useRef();
     const reduceMotion = useReducedMotion();
-    const decoderSpring = useSpring(0, { stiffness: 8, damping: 5 });
+    const decoderSpring = useSpring(0, { stiffness: 5, damping: 3 });
 
     useEffect(() => {
       const containerInstance = container.current;
@@ -74,7 +57,7 @@ export const DecoderText = memo(
         decoderSpring.set(content.length);
       };
 
-      if (start && !animation && !reduceMotion) {
+      if (start && !reduceMotion) {
         startSpring();
       }
 

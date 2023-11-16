@@ -1,15 +1,8 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
+import aiorbitTexture from 'assets/aiorbit-nft.png';
+import xxcorpTexture from 'assets/xxcorp-project.png';
+import gptProtocolTexture from 'assets/gpt-protocol.png';
+import onChainMonkeyTexture from 'assets/onchain-monkey.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -18,7 +11,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Blockchain', 'AI', 'Full Stack', 'Leader', 'Innovator'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -27,10 +20,11 @@ export const Home = () => {
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
+  const projectFour = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, details];
+    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -68,9 +62,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        title="Fahmid Uddin - AI & Blockchain Specialist"
+        description="Portfolio of Fahmid Uddin, a Full Stack Engineer specializing in AI and Blockchain technologies. Explore innovative projects and technical solutions."
       />
       <Intro
         id="intro"
@@ -83,19 +76,14 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="AIORBIT NFT Collection"
+        description="Development of dynamic AI-enhanced NFTs in Solidity, blending blockchain and AI technologies."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/aiorbit"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
-          textures: [
-            {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
-            },
-          ],
+          alt: 'AIORBIT NFT project',
+          textures: [{ srcSet: [aiorbitTexture], placeholder: sprTexturePlaceholder }],
         }}
       />
       <ProjectSummary
@@ -104,23 +92,14 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="XXCORP INC Innovations"
+        description="Founding and steering a tech company specializing in web and mobile solutions, and its successful integration into GPT Protocol."
+        buttonText="View project"
+        buttonLink="/projects/xxcorp"
         model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
-            },
-          ],
+          type: 'laptop',
+          alt: 'XXCORP project showcase',
+          textures: [{ srcSet: [xxcorpTexture], placeholder: sprTexturePlaceholder }],
         }}
       />
       <ProjectSummary
@@ -128,18 +107,32 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="GPT Protocol Development"
+        description="Leading the development of decentralized AI blockchain technologies at GPT Protocol."
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/gpt-protocol"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'GPT Protocol project',
           textures: [
-            {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
-            },
+            { srcSet: [gptProtocolTexture], placeholder: sprTexturePlaceholder },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-4"
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
+        index={4}
+        title="Metagood & OnChainMonkey"
+        description="Pioneering the fully on-chain NFT system for OnChainMonkey, enhancing the blockchain ecosystem."
+        buttonText="View project"
+        buttonLink="/projects/onchainmonkey"
+        model={{
+          type: 'laptop',
+          alt: 'OnChainMonkey project',
+          textures: [
+            { srcSet: [onChainMonkeyTexture], placeholder: sprTexturePlaceholder },
           ],
         }}
       />
