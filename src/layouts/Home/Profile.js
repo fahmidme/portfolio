@@ -27,7 +27,7 @@ const ProfileText = ({ visible, titleId }) => (
       experimenting with latest technologies.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Beyond my technical expertise, I'm passionate about my dog Astro and traveling.
+      {`Beyond my technical expertise, I'm passionate about my dog Astro and traveling.`}
     </Text>
   </Fragment>
 );
