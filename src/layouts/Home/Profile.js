@@ -23,8 +23,8 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       As a seasoned Full Stack Engineer and AI & Blockchain Specialist, I have been
       responsible for driving the integration of cutting-edge technologies to drive
-      innovation. Currently, I'm shaping the future of decentralized tech combined with
-      AI.
+      innovation. After taking my software consulting company through an exit, I am now
+      experimenting with latest technologies.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       Beyond my technical expertise, I'm passionate about my dog Astro and traveling.

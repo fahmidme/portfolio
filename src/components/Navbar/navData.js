@@ -7,13 +7,14 @@ export const navLinks = [
     label: 'Details',
     pathname: '/#details',
   },
-  {
-    label: 'Contact',
-    pathname: '/contact',
-  },
 ];
 
 export const socialLinks = [
+  {
+    label: 'LinkedIn',
+    url: 'https://linkedin.com/in/fahmidme',
+    icon: 'linkedin',
+  },
   {
     label: 'X',
     url: 'https://twitter.com/hellofahmid',

@@ -69,7 +69,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Fahmid Uddin - AI & Blockchain Specialist"
+        title="Creative Coder"
         description="Portfolio of Fahmid Uddin, a Full Stack Engineer specializing in AI and Blockchain technologies. Explore innovative projects and technical solutions."
       />
       <Intro

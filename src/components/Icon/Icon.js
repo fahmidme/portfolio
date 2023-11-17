@@ -17,6 +17,7 @@ import Send from './svg/send.svg';
 import Twitter from './svg/twitter.svg';
 import Medium from './svg/medium.svg';
 import X from './svg/x.svg';
+import LinkedIn from './svg/linkedin.svg';
 
 export const icons = {
   arrowLeft: ArrowLeft,
@@ -36,6 +37,7 @@ export const icons = {
   twitter: Twitter,
   medium: Medium,
   x: X,
+  linkedin: LinkedIn,
 };
 
 export const Icon = ({ icon, className, ...rest }) => {

@@ -1,12 +1,13 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
-
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
+
+Just a creative coder
+
+Fahmid Uddin
+fahmid.com | twitter.com/hellofahmid | github.com/fahmidme
+Personalized a fork from the amazing repo from Hamish Williams
 
 DESIGNER | デザイナー
 
