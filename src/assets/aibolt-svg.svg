@@ -1,0 +1,347 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640"
+    style="background-color: transparent;">
+    <circle cx="235" cy="214" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="46" cy="471" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="241" cy="281" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="241" cy="349" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="618" cy="209" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="31" cy="224" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="551" cy="100" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="1" cy="50" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="405" cy="382" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="226" cy="88" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="149" cy="226" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="27" cy="129" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="407" cy="454" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="4" cy="7" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="508" cy="504" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="216" cy="227" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="156" cy="496" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="442" cy="132" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="605" cy="167" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="409" cy="192" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="635" cy="97" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="514" cy="225" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="95" cy="592" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="154" cy="455" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="388" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="208" cy="187" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="226" cy="40" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="275" cy="553" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="448" cy="322" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="249" cy="244" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="638" cy="614" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="472" cy="480" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="577" cy="165" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="504" cy="552" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="56" cy="304" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="472" cy="393" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="592" cy="25" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="354" cy="525" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="361" cy="170" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="393" cy="166" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="333" cy="126" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="341" cy="615" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="140" cy="464" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="330" cy="213" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="525" cy="164" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="275" cy="241" r="3" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="118" cy="509" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="18" cy="91" r="2" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="459" cy="491" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <circle cx="395" cy="237" r="1" fill="rgba(255,255,255,0.1)">
+        <animate attributeName="r" values="0;1;0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="fill"
+            values="rgb(255,255,255);rgb(192,192,192);rgb(128,128,128);rgb(64,64,64);rgb(255,255,255)" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+    <g transform="translate(320,320)">
+        <circle r="40" className="sun">
+            <animate attributeName="fill" values="#FF4500; #FF6347; #FF7F50; #FF4500" dur="3s"
+                repeatCount="indefinite" />
+        </circle>
+        <g transform="translate(-40,-40) scale(0.08)" className="bolt">
+            <path
+                d="M624 267.629L615.767 252L533.433 256.935L377 503.701L385.233 519.33H475.8L385.233 738.129L401.7 748L611.65 462.574L603.417 446.945H508.733L624 267.629Z"
+                fill="black" stroke="black" stroke-width="25" stroke-linejoin="round" />
+        </g>
+        <g>
+            <circle cx="0" cy="0" r="100" className="trail0" stroke="gray" fill="transparent" stroke-opacity="0">
+                <animate attributeName="stroke-opacity" values="1;0;0;1" dur="6s" repeatCount="indefinite" begin="0s" />
+            </circle>
+            <circle cx="0" cy="-100" r="15" className="planet0">
+                <animate attributeName="fill" dur="8s" repeatCount="indefinite"
+                    values="#808080; #A9A9A9; #C0C0C0; #808080" />
+            </circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s"
+                repeatCount="indefinite" />
+        </g>
+        <g>
+            <circle cx="0" cy="0" r="200" className="trail1" stroke="gray" fill="transparent" stroke-opacity="0">
+                <animate attributeName="stroke-opacity" values="0;1;0;0" dur="6s" repeatCount="indefinite" begin="2s" />
+            </circle>
+            <circle cx="0" cy="-200" r="30" className="planet1">
+                <animate attributeName="fill" dur="8s" repeatCount="indefinite"
+                    values="#FFFF00; #FFD700; #FFA500; #FFFF00" />
+            </circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s"
+                repeatCount="indefinite" />
+        </g>
+        <g>
+            <circle cx="0" cy="0" r="300" className="trail2" stroke="gray" fill="transparent" stroke-opacity="0">
+                <animate attributeName="stroke-opacity" values="0;0;1;0" dur="6s" repeatCount="indefinite" begin="4s" />
+            </circle>
+            <circle cx="0" cy="-300" r="15" className="planet2">
+                <animate attributeName="fill" dur="8s" repeatCount="indefinite"
+                    values="#FFFF00; #FFD700; #FFA500; #FFFF00" />
+            </circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s"
+                repeatCount="indefinite" />
+        </g>
+    </g>
+</svg>

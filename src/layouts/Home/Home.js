@@ -1,9 +1,11 @@
 import aiorbitTexture from 'assets/aiorbit-nft.png';
 import xxcorpTexture from 'assets/xxcorp-project.png';
+import themecraftTexture from 'assets/themecraft-project.png';
 import gptProtocolTexture from 'assets/gpt-protocol.png';
 import onChainMonkeyTexture from 'assets/onchain-monkey.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import aiorbitSvg from 'assets/aiorbit-svg.svg';
+import aiboltSvg from 'assets/aibolt-svg.svg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -26,20 +28,10 @@ export const Home = () => {
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
-  const projectFour = useRef();
-  const projectFive = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [
-      intro,
-      projectOne,
-      projectTwo,
-      projectThree,
-      projectFour,
-      projectFive,
-      details,
-    ];
+    const sections = [intro, projectOne, projectTwo, projectThree, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -103,69 +95,41 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-2"
+        alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectOne.current)}
         index={2}
-        title="AIBOLT Discord Bot"
-        description="Development of dynamic AI-enhanced NFTs in Solidity, blending blockchain and AI technologies."
-        buttonText="View project"
-        buttonLink="/projects/project"
+        title="AIBOLT Bot & NFT Ecosystem"
+        description={`The AIBOLT initiative represents an evolutionary leap in NFT ecosystems, boasting a vibrant array of animated SVG solar systems that interact with on-chain Events.\n\nEach AIBOLT is not just a digital asset but part of a living narrative, where the AIBOLT Bot enhances user engagement through AI-driven storytelling and personalized experiences.\n\nThese NFTs evolve over time, offering a unique journey through their ever-changing universe, where stories and visual art are tokenized, encapsulating the convergence of blockchain’s immutability with AI’s imaginative prowess.`}
+        buttonText="Read article"
+        buttonLink="https://medium.com/@realhellofahmid/dreaming-in-code-the-journey-from-vivid-dreams-to-aiorbit-b74ae5d9f496"
         model={{
           type: 'svg',
           alt: 'AIORBIT #7',
-          SvgComponent: aiorbitSvg, // Pass the SVG component
+          SvgComponent: aiboltSvg, // Pass the SVG component
         }}
       />
       <ProjectSummary
         id="project-3"
-        alternate
         sectionRef={projectThree}
         visible={visibleSections.includes(projectTwo.current)}
         index={3}
-        title="XXCORP INC Innovations"
-        description="Founding and steering a tech company specializing in web and mobile solutions, and its successful integration into GPT Protocol."
+        title="AI-Powered Web Themes: ThemeCraft"
+        description="ThemeCraft, an open-source innovative web application, harnesses OpenAI's capabilities to transform natural language descriptions into customized web themes. It offers dynamic CSS generation, interactive editing, and the ability to export the final product, facilitating a unique and intuitive design experience."
         buttonText="View project"
-        buttonLink="/projects/xxcorp"
+        buttonLink="https://github.com/fahmidme/themecraft"
         model={{
           type: 'laptop',
-          alt: 'XXCORP project showcase',
-          textures: [{ srcSet: [xxcorpTexture], placeholder: sprTexturePlaceholder }],
-        }}
-      />
-      <ProjectSummary
-        id="project-4"
-        sectionRef={projectFour}
-        visible={visibleSections.includes(projectThree.current)}
-        index={4}
-        title="GPT Protocol Development"
-        description="Leading the development of decentralized AI blockchain technologies at GPT Protocol."
-        buttonText="View project"
-        buttonLink="/projects/gpt-protocol"
-        model={{
-          type: 'laptop',
-          alt: 'GPT Protocol project',
+          alt: 'ThemeCraft project showcase',
           textures: [
-            { srcSet: [gptProtocolTexture], placeholder: sprTexturePlaceholder },
+            {
+              srcSet: [themecraftTexture], // Replace with a screenshot of ThemeCraft if available
+              placeholder: sprTexturePlaceholder,
+            },
           ],
         }}
       />
-      <ProjectSummary
-        id="project-5"
-        sectionRef={projectFive}
-        visible={visibleSections.includes(projectFour.current)}
-        index={5}
-        title="Metagood & OnChainMonkey"
-        description="Pioneering the fully on-chain NFT system for OnChainMonkey, enhancing the blockchain ecosystem."
-        buttonText="View project"
-        buttonLink="/projects/onchainmonkey"
-        model={{
-          type: 'laptop',
-          alt: 'OnChainMonkey project',
-          textures: [
-            { srcSet: [onChainMonkeyTexture], placeholder: sprTexturePlaceholder },
-          ],
-        }}
-      />
+
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
